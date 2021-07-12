@@ -2,10 +2,13 @@
 ata.pdf
 ementa.md
 lista_alunos.md
+*.docx
+*.odt
 anotacoes/*
 roteiros/*
 videoaulas/*
 codigos/*/ios
+avaliacoes/entregas/*
 
 # Created by https://www.toptal.com/developers/gitignore/api/latex,jupyternotebooks,flutter,android,gradle
 # Edit at https://www.toptal.com/developers/gitignore?templates=latex,jupyternotebooks,flutter,android,gradle
