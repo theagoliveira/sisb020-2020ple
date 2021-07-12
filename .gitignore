@@ -2,6 +2,9 @@
 ata.pdf
 ementa.md
 lista_alunos.md
+anotacoes/*
+roteiros/*
+videoaulas/*
 
 # Created by https://www.toptal.com/developers/gitignore/api/latex,jupyternotebooks,flutter
 # Edit at https://www.toptal.com/developers/gitignore?templates=latex,jupyternotebooks,flutter

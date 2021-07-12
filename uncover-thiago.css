@@ -1,0 +1,135 @@
+/* @theme uncover-thiago */
+
+@import "uncover";
+
+/* CUSTOM */
+table thead tr th:first-child {
+  padding-left: 0px;
+}
+
+table thead tr th:last-child {
+  padding-right: 0px;
+}
+
+table tbody tr td {
+  white-space: nowrap;
+}
+
+table tbody tr td:first-child {
+  padding-left: 0px;
+}
+
+table tbody tr td:last-child {
+  padding-right: 0px;
+}
+
+table tbody tr:last-child td {
+  border-bottom: 3px solid;
+}
+
+table thead tr:first-child th {
+  border-top: 3px solid;
+  border-bottom: 2px solid;
+  top: 0px;
+  background-color: #fdfcff;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+table {
+  display: block;
+  overflow-y: scroll;
+  border-collapse: separate !important;
+  border-spacing: 0;
+}
+
+blockquote {
+  text-align: justify;
+}
+
+section.stats img {
+  width: 55%;
+}
+
+section.large-ul ul {
+  font-size: 140%;
+}
+
+section.small-ul ul {
+  font-size: 81%;
+}
+
+section.no-bullets ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+section.no-bullets ul li:before {
+  content: " ";
+  color: red;
+  font-family: "Font Awesome 5 Brands Regular";
+}
+
+section.left-ul ul {
+  margin-left: 0px;
+}
+
+section.small-ol ol {
+  font-size: 75%;
+}
+
+section.left-header header {
+  text-align: left;
+  margin-left: -40px;
+}
+
+section.show-terminal h1 {
+  margin-bottom: auto;
+}
+
+section.decrease-font p {
+  font-size: 33px;
+}
+
+section.text-justify p {
+  text-align: justify;
+}
+
+section.flex-align-top {
+  justify-content: flex-start;
+}
+
+section.flex-space-evenly {
+  justify-content: space-evenly;
+}
+
+section.blue-bold strong {
+  color: #33b1dd;
+  font-weight: bold;
+}
+
+section.img-margin img {
+  margin: 50px;
+}
+
+/* https://github.com/marp-team/marpit/issues/137#issuecomment-696261979 */
+div.twocols {
+  margin-top: 35px;
+  column-count: 2;
+}
+
+div.twocols p:first-child,
+div.twocols h1:first-child,
+div.twocols h2:first-child,
+div.twocols ul:first-child,
+div.twocols ul li:first-child,
+div.twocols ul li p:first-child {
+  margin-top: 0 !important;
+}
+
+div.twocols p.break {
+  break-before: column;
+  margin-top: 0;
+}
